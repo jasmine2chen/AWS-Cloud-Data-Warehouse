@@ -18,8 +18,7 @@ As a data engineer, my role is to build an ETL pipeline that extracts the data f
 
 1. Update the credentials and configuration details in `dwh.cf`
 
-2. Provision a Redshift cluster within AWS with the Quick Launch wizard, AWS CLI, or AWS SDKs such as boto3 in python
-   Creating a new AWS Redshift Cluster
+2. Provision a Redshift cluster within AWS with the Quick Launch wizard, AWS CLI, or AWS SDKs such as boto3 in python; creating a new AWS Redshift Cluster
 ```sh
 python aws_create_cluster.py
 ```
