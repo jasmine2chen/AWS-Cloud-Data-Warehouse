@@ -14,18 +14,18 @@ Log data: s3://udacity-dend/log_data
 Log data json path: s3://udacity-dend/log_json_path.json
 
 
-### Configuration
+## Configuration
 
-Fill all the fields of `dwh.cfg', except only two fields are left empty: 
+1. Fill all the fields of `dwh.cfg', except only two fields are left empty: 
  - `HOST` (inside the `DB` configuration section) 
  - And the `ARN` (inside the `IAM_ROLE` configuration section) 
 
-1. Creating a new AWS Redshift Cluster
+2. Creating a new AWS Redshift Cluster
 ```sh
 python aws_create_cluster.py
 ```
 
-2. Checking the cluster availability 
+3. Checking the cluster availability 
 
 - run several times until your cluster becomes available - takes from 3 to 6 minutes_
 
@@ -33,9 +33,9 @@ python aws_create_cluster.py
 python aws_check_cluster_available.py
 ```
 
-#### 3. Destroying the cluster 
+4. Destroying the cluster 
 
-_After the ETL process done, nor whenever you want, you can destroy it with a single command:_
+-After the ETL process done, nor whenever you want, you can destroy it with a single command:_
 
 ```sh
 python aws_destroy_cluster.py
