@@ -23,17 +23,13 @@ As a data engineer, my role is to build an ETL pipeline that extracts the data f
 python aws_create_cluster.py
 ```
 
-3. Checking the cluster availability 
-
-- run several times until the cluster becomes available: 
+3. Checking the cluster availability; run several times until the cluster becomes available: 
 
 ```sh
 python aws_check_cluster_available.py
 ```
 
-4. Destroying the cluster 
-
-- After the ETL process done, destroy it with a single command: 
+4. After the ETL process done, destroy the cluster: 
 
 ```sh
 python aws_destroy_cluster.py
