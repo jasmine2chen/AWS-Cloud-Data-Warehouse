@@ -9,9 +9,9 @@ As a data engineer, my role is to build an ETL pipeline that extracts their data
 
 ## Datasets
 
-Song data: s3://udacity-dend/song_data
-Log data: s3://udacity-dend/log_data
-Log data json path: s3://udacity-dend/log_json_path.json
+- Song data: s3://udacity-dend/song_data
+- Log data: s3://udacity-dend/log_data
+- Log data json path: s3://udacity-dend/log_json_path.json
 
 
 ## Configuration
