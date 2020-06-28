@@ -2,9 +2,9 @@
 
 ## Background
 
-Sparkify, a music streaming startup, has grown their user base and song database and want to move their data onto the cloud. Their data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
+Sparkify, a music streaming startup, has grown the user base and song database and want to move their data onto the cloud. The data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in the app.
 
-As a data engineer, my role is to build an ETL pipeline that extracts their data from S3, stages them in Redshift, and transforms data into a set of dimensional tables for the analytics team to continue finding insights in what songs that users are listening to, and run queries for testing purposes. 
+As a data engineer, my role is to build an ETL pipeline that extracts the data from S3, stages them in Redshift, and transforms data into a set of dimensional tables for the analytics team to continue finding insights in what songs that users are listening to, and run queries for testing purposes. 
 
 
 ## Datasets
