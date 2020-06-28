@@ -16,11 +16,10 @@ As a data engineer, my role is to build an ETL pipeline that extracts the data f
 
 ## Configuration
 
-1. Fill all the fields of `dwh.cfg', except only two fields are left empty: 
- - `HOST` (inside the `DB` configuration section) 
- - And the `ARN` (inside the `IAM_ROLE` configuration section) 
+1. Update the credentials and configuration details in `dwh.cf`
 
-2. Creating a new AWS Redshift Cluster
+2. Provision a Redshift cluster within AWS with the Quick Launch wizard, AWS CLI, or AWS SDKs such as boto3 in python
+   Creating a new AWS Redshift Cluster
 ```sh
 python aws_create_cluster.py
 ```
