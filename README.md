@@ -27,7 +27,7 @@ python aws_create_cluster.py
 
 3. Checking the cluster availability 
 
-- run several times until your cluster becomes available - takes from 3 to 6 minutes_
+- run several times until the cluster becomes available: 
 
 ```sh
 python aws_check_cluster_available.py
@@ -35,7 +35,7 @@ python aws_check_cluster_available.py
 
 4. Destroying the cluster 
 
--After the ETL process done, nor whenever you want, you can destroy it with a single command:_
+- After the ETL process done, destroy it with a single command: 
 
 ```sh
 python aws_destroy_cluster.py
